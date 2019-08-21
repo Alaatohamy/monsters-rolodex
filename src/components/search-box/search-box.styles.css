@@ -1,9 +1,18 @@
 .search {
   -webkit-appearance: none;
   border: none;
+  border-radius:10px;
   outline: none;
   padding: 10px;
   width: 150px;
   line-height: 30px;
   margin-bottom: 30px;
+}
+
+.label {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: left;
 }
