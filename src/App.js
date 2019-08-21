@@ -31,7 +31,8 @@ class App extends Component{
 
     return (
       <div className="App">
-        <Input handleChange={this.searchHandleChange} placeholder='Search by name' />
+        <h1 className="main-header">Cats List</h1>
+        <Input handleChange={this.searchHandleChange} placeholder='Filter by name' label="Filter:"/>
         <section>
         {
           error ? error : 
